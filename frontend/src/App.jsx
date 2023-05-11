@@ -5,11 +5,13 @@ import Home from "./pages/Home";
 import DescriptionPage from "./pages/DescriptionPage";
 import BasketPage from "./pages/BasketPage";
 import Footer from "./pages/Footer";
+import Header from "./components/Header";
 
 function App() {
   return (
     <Router>
       <div className="App">
+        <Header />
         <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
