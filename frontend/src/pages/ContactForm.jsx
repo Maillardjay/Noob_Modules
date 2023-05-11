@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 // eslint-disable-next-line import/no-extraneous-dependencies
 import emailjs from "@emailjs/browser";
+import "../styles/ContactForm.css";
 
 function ContactForm() {
   const [name, setName] = useState("");
