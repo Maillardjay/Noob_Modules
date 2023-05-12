@@ -1,1 +1,37 @@
 @import "./Variables.scss";
+
+.card-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  border-radius: 5%;
+  max-width: 90%;
+}
+
+.card-Body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-title {
+  padding: 2rem;
+}
+
+.card-description {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: justify;
+}
