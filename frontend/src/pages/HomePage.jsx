@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import haunteds from "../data/Data";
 import HouseCard from "../components/HouseCard";
 
@@ -65,7 +66,9 @@ function HomePage() {
             );
           })
           .map((haunted) => (
-            <HouseCard haunted={haunted} key={haunted.id} />
+            <Link to={`/description/${haunted.id}`} key={haunted.id}>
+              <HouseCard haunted={haunted} />
+            </Link>
           ))}
       </section>
     </div>
