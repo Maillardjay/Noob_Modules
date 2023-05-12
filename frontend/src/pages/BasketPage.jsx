@@ -1,7 +1,7 @@
 import React from "react";
 
 function BasketPage() {
-  return <div>BasketPage</div>;
+  return <div>Panier</div>;
 }
 
 export default BasketPage;

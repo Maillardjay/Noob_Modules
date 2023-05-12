@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import haunteds from "../data/Data";
 import HouseCard from "../components/HouseCard";
 
-function Home() {
+function HomePage() {
   const [search, setSearch] = useState("");
   const [country, setCountry] = useState("All");
   const [city, setCity] = useState("All");
@@ -72,4 +72,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default HomePage;
