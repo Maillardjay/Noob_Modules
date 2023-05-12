@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../Styles/NavBar.scss";
+import "../Styles/Navbar.scss";
 
 function NavBar() {
   return (

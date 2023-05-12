@@ -10,6 +10,8 @@ function HouseCard({ haunted }) {
       </div>
       <div className="card-Body">
         <h2 className="card-title">{haunted.title}</h2>
+        <p>Rating: {haunted.note}</p>
+        <p>Booking: {haunted.price}€</p>
       </div>
     </>
   );
