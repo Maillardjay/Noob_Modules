@@ -1,5 +1,5 @@
 import React from "react";
-import haunteds from "../data/Data";
+import "../Styles/HouseCard.scss";
 
 function HouseCardDesc({ haunted }) {
   return (
