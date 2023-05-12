@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import haunteds from "../data/haunteds";
+import haunteds from "../data/Data";
 import HouseCard from "../components/HouseCard";
 
 function Home() {
