@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import haunteds from "../data/Data";
 import HouseCard from "../components/HouseCard";
+import "../Styles/HomePage.scss";
 
 function HomePage() {
   const [search, setSearch] = useState("");
