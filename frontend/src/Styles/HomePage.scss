@@ -1,12 +1,27 @@
 @import "./Variables.scss";
 
-.filters{
+.home-page{
+  background-color: $darkgrey;
+}
+.search-input{
   display: flex;
   flex-direction: column;
+  text-align: center;
   
+}
+
+  card-header {
+align-items: center;
+  }
+
+  .card-Body {
+    display: flex;
+    justify-content: center;
+  }
+
   img {
     padding-left: 5%;
     width: 90%;
   }
-}
+
 

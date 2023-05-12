@@ -1,4 +1,5 @@
 import React from "react";
+import "../Styles/DescriptionPage.scss";
 import { useParams } from "react-router-dom";
 import HouseCardDesc from "../components/HouseCardDesc";
 import haunteds from "../data/Data";
