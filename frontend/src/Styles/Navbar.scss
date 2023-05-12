@@ -1,19 +1,14 @@
 @import "./Variables.scss";
 
-
-  .NavBar {
-    display: flex;
-    justify-content: space-around;
-    border: none;
-    height: 4rem;
-    align-items: center;
-    background-color: gray;
-    bottom: 0;
-    z-index: 1;
-    position: fixed;
-    width: 100%;
-  }
-   
-    
-  
-  
+.NavBar {
+  display: flex;
+  justify-content: space-around;
+  border: none;
+  height: 4rem;
+  align-items: center;
+  background-color: gray;
+  bottom: 0;
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+}
